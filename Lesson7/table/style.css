@@ -1,0 +1,41 @@
+.table {
+    text-align: left;
+    font-size:large;
+    font-family:cursive;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.tr-green {
+    background-color: rgba(50, 206, 185, 0.938);
+    color: white;
+    height: 15px;
+    font-weight: bold;
+}
+.td-1 {
+    padding: 10px;
+    width: 380px;
+}
+.td-2 {
+    padding: 10px;
+    width: 50px;
+}
+.td-3 {
+    padding: 10px;
+    width: 50px;
+}
+.tr-gwhite {
+    background-color: white;
+    color: rgb(61, 37, 37);
+    height: 70px;
+    font-weight: bold;
+}
+.tr-brown {
+    background-color: rgb(206, 187, 177);
+}
+.tr-white {
+    background-color: white;
+}
+.tr-sbrown {
+    background-color: rgb(131, 115, 104);
+    height:3px;
+}
