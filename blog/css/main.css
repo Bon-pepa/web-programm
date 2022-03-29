@@ -47,7 +47,6 @@
     border-color: black;
 }
 .box-osnova {
-    width: 62em;
     border: 1px solid;
     border-color: rgb(14, 65, 31);
     margin: 0.5em;
@@ -63,4 +62,39 @@
 }
 .bg-lightgreen {
     background-color: rgb(76, 160, 104);
+}
+.containerM {
+    max-width: 1320px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.navbar-nav {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+.nav-link {
+    padding: 0.5rem;
+    color: rgba(0, 0, 0,0.55);
+    text-decoration: none;
+
+}
+.nav-link.active {
+    color: rgba(0,0,0,0.9);
+}
+.bg-light {
+    background-color: #f3f3f3;
+}
+.navbar {
+    height: 50px;
+    display: flex;
+}
+body, ul {
+   margin: 0;
+}
+.collapse {
+    height: 100%;
+    display: flex;
+    align-items: center;
 }
