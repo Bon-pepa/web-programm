@@ -30,6 +30,7 @@
     flex-direction: row;
     justify-content: space-between;
 }
+
 .bok {
     width: 25%;
 }
@@ -40,8 +41,8 @@
 .vnesh-otstup {
     margin: 2px;
 }
-.bg-green {
-    background-color: rgb(112, 165, 110);
+.bg-gray {
+    background-color: rgba(77, 78, 77,0.5);
 }
 .border-black {
     border-color: black;
@@ -92,9 +93,40 @@
 }
 body, ul {
    margin: 0;
+   font-size: 20px;
 }
 .collapse {
     height: 100%;
     display: flex;
     align-items: center;
+}
+.name {
+    border: 1px solid;
+    border-color: rgb(14, 65, 31);
+    margin: 0.5em;
+    width: 5em;
+    text-align: center;
+    font-size: 25px;
+}
+.bg-brown {
+    background-color: rgba(141, 124, 101, 0.8);
+}
+.buton {
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px;
+    margin: 2em;
+}
+.bg-purple {
+    background-color: rgba(144, 110, 175, 0.8);
+}
+.buton.dafna {
+    border: 1px solid rgb(68, 18, 57);
+    color: rgb(255, 255, 255);
+    background-color: #c78cbd;
+}
+.buton.scooby {
+    border: 1px solid rgb(99, 88, 79);
+    color: rgb(255, 255, 255);
+    background-color: #836f5c;
 }
