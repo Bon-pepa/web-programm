@@ -41,9 +41,7 @@
 .bok {
     width: 25%;
 }
-.osnova {
-    border: 2px solid;
-}
+
 .vnesh-otstup {
     margin: 2px;
 }
@@ -53,22 +51,8 @@
 .border-black {
     border-color: black;
 }
-.box-osnova {
-    border: 1px solid;
-    border-color: rgb(14, 65, 31);
-    margin: 0.5em;
-}
 .text-decoration {
    text-decoration: underline;
-}
-.box-bottom {
-    width: 20%;
-    border: 1px solid;
-    border-color: rgb(14, 65, 31);
-    margin: 0.5em;
-}
-.bg-lightgreen {
-    background-color: rgb(76, 160, 104);
 }
 .navbar-nav {
     display: flex;
@@ -100,33 +84,24 @@ body, ul, h1, h2, h3, h4, h5 {
     display: flex;
     align-items: center;
 }
-.name {
-    border: 1px solid;
-    border-color: rgb(14, 65, 31);
-    margin: 0.5em;
-    width: 5em;
-    text-align: center;
-    font-size: 25px;
-}
 .bg-brown {
     background-color: rgba(141, 124, 101, 0.8);
 }
-.buton {
+.btn {
     border-radius: 5px;
     cursor: pointer;
     padding: 10px;
-    margin: 2em;
 }
 .bg-purple {
     background-color: rgba(144, 110, 175, 0.8);
 }
-.buton.dafna {
-    border: 1px solid rgb(68, 18, 57);
+.btn.dafna {
+    border: 2px solid rgb(68, 18, 57);
     color: rgb(255, 255, 255);
     background-color: #c78cbd;
 }
-.buton.scooby {
-    border: 1px solid rgb(99, 88, 79);
+.btn.scooby {
+    border: 2px solid rgb(99, 88, 79);
     color: rgb(255, 255, 255);
     background-color: #836f5c;
 }
