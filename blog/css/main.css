@@ -29,6 +29,7 @@
     color: #fff;
 }
 .container.B {
+    display: flex;
     justify-content: space-between;
 }
 .container {
@@ -36,7 +37,6 @@
     width: 100%;
     margin-left: auto;
     margin-right: auto;
-    display: flex;
 }
 .bok {
     width: 25%;
@@ -140,4 +140,35 @@ article img {
 }
 .post-meta span {
     font-style: italic;
+}
+
+.paginate {
+    display: flex;
+    list-style: none;
+}
+.paginate-item {
+    border: 1px solid #3f78d4;
+    margin: 2px;
+
+    transition: 0.9s;
+    background-color: #3f78d4;
+}
+.paginate-item a {
+    padding: 1.25rem 0.5rem;
+}
+.paginate a, .paginate a:visited {
+    color:#fff;
+}
+
+.paginate a {
+    text-decoration: none;
+}
+.paginate-item:hover {
+    background-color: #fff;
+}
+.paginate-item:hover a {
+    color: #3f78d4;
+}
+.justify-content-center {
+    justify-content: center;
 }
