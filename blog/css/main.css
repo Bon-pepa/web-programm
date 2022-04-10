@@ -84,32 +84,35 @@ body, ul, h1, h2, h3, h4, h5 {
     display: flex;
     align-items: center;
 }
-.bg-brown {
-    background-color: rgba(141, 124, 101, 0.8);
+.bg-blue {
+    background-color: rgba(123, 152, 207, 0.8);
 }
 .btn {
     border-radius: 5px;
     cursor: pointer;
     padding: 10px;
 }
-.bg-purple {
-    background-color: rgba(144, 110, 175, 0.8);
+.bg-pink {
+    background-color: rgba(199, 136, 180, 0.8);
 }
-.btn.dafna {
-    border: 2px solid rgb(68, 18, 57);
+.btn.coco {
+    border: 2px solid rgb(109, 43, 95);
     color: rgb(255, 255, 255);
-    background-color: #c78cbd;
+    background-color: #c482b9;
 }
-.btn.scooby {
-    border: 2px solid rgb(99, 88, 79);
+.btn.monster {
+    border: 2px solid rgb(67, 101, 146);
     color: rgb(255, 255, 255);
-    background-color: #836f5c;
+    background-color: #7c90c9;
+}
+.sidebar-50 {
+    width: 50%;
 }
 .sidebar {
-    width: 22%;
+    width: 10%;
 }
 .content {
-    
+
 }
 .row {
     display: flex;
@@ -147,11 +150,11 @@ article img {
     list-style: none;
 }
 .paginate-item {
-    border: 1px solid #3f78d4;
+    border: 1px solid #2d3644;
     margin: 2px;
 
     transition: 0.9s;
-    background-color: #3f78d4;
+    background-color: #1a212c;
 }
 .paginate-item a {
     padding: 1.25rem 0.5rem;
@@ -167,8 +170,23 @@ article img {
     background-color: #fff;
 }
 .paginate-item:hover a {
-    color: #3f78d4;
+    color: #000000;
 }
 .justify-content-center {
     justify-content: center;
+}
+.text-size-40px {
+    font-size: 40px;
+}
+.text-blue {
+    color: rgb(21, 21, 77);
+}
+table {
+    text-align: left;
+    font-size: 16px;
+    margin: 5px;
+}
+.btn.coco a, btn.coco a:visited {
+    color: #fff;
+    text-decoration: none;
 }
