@@ -4,6 +4,11 @@
     <meta charset="UTF-8">
     <title>Bootstrap</title>
     <link href="css/bootstrap.min.css" rel="stylesheet"/>
+    <style>
+      .border-custom {
+           border-color: aquamarine!important;
+      }
+    </style>
  </head>
  <body>
 
@@ -30,8 +35,16 @@
           </div>
           
           
-          <div class="row">
-            <div class="col-4 bg-danger">
+          <div class="row justify-content-center" style="height: 500px;">
+            <div class="col align-self-star d-none">
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero laboriosam reiciendis distinctio provident voluptas! Eligendi, ratione commodi sed saepe voluptates voluptate dolorum amet tempore dolores nulla voluptatem id, dolorem quisquam.</p>
+            </div>
+            <div class="col-6 align-self-center">
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui quo sequi nihil pariatur accusamus veritatis repudiandae tempora est assumenda debitis laudantium nostrum mollitia voluptate totam, quos animi. Provident, numquam autem?
+              </p>
+            </div>
+            <div class="col-4 align-self-end bg-danger d-none">
                <p>Bootstrap включает шесть контрольных точек по умолчанию, 
                 иногда называемых уровнями сетки, для быстрого реагирования. 
                 Эти контрольные точки можно настроить, если вы используете 
@@ -42,6 +55,35 @@
                 наши исходные файлы Sass.</p>
             </div>
           </div>
+
+          <div class="row">
+
+            <div class="col-4 offset-lg-8 offset-md-5 bg-primary">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, quisquam voluptatibus ipsa recusandae sapiente repellendus, nostrum laborum reiciendis iusto atque aliquid. Aut quod perspiciatis consequuntur iusto! Odio veritatis architecto esse?
+                </p>
+            </div>
+
+          </div>
+
+          <div class="row my-5">
+            <div class="col-3 bg-dark text-white me-5 px-3 border border-5 border-danger">
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus placeat in sunt natus rerum inventore at recusandae ut minima similique. Ab praesentium perferendis quis harum esse impedit, fugit dolorum vel.
+              </p>
+            </div>
+            <div class="col-3 bg-dark text-white mx-5 py-3 rounded rounded-5"> 
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus placeat in sunt natus rerum inventore at recusandae ut minima similique. Ab praesentium perferendis quis harum esse impedit, fugit dolorum vel.
+              </p>
+            </div>
+            <div class="col-3 bg-dark text-white border border-5 border-custom p-3">
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus placeat in sunt natus rerum inventore at recusandae ut minima similique. Ab praesentium perferendis quis harum esse impedit, fugit dolorum vel.
+              </p>
+            </div>
+          </div>
+          
     </div>
 
 
