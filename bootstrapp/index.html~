@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bootstrap</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+   <nav class="navbar-nav">
+    <div class="container-fluid">
+        <div class="row">
+           <div class="col  bg-secondary mx-1">
+               <div class="row" style="height: 100%;">
+                <div class="col-2 bg-white my-1 ms-2">1</div>
+                <div class="col-2 bg-white my-1 ms-2">2</div>
+                <div class="col-2 bg-white my-1 ms-2">3</div>
+                <div class="col-2 bg-white my-1 ms-2">4</div>
+                <div class="col-2 bg-white my-1 ms-2">5</div>
+               </div>
+           </div>
+        </div>
+    </div>
+   </nav>
+   
+   <div class="container">
+        <div class="p-3 bg-dark text-white">
+            Американская киностудия, работающая в жанре компьютерной анимации. 
+            Расположена в Эмеривилле, штат Калифорния. 
+            Pixar — это та компания, которая делает не 
+            только душевные, но и технически идеальные проекты.
+        </div>
+    </div>
+    
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-2  bg-success m-1">
+              <div class="sidebar">
+                <div class="col bg-white mt-2 my-1" style="height: 90px;">1</div>
+                <div class="col bg-white my-1" style="height: 90px;">2</div>
+                <div class="col bg-white my-1" style="height: 90px;">3</div>
+                <div class="col bg-white my-1" style="height: 90px;">4</div>
+                <div class="col bg-white my-1" style="height: 90px;">5</div>
+              </div>
+            </div>
+            <div class="col bg-warning m-1">
+             <div class="content">
+                    <div class="post row bg-white mx-2 mt-2">
+                       <div class="col-12 m-3">
+                          <div class="post-header">
+                           <h3> <a href="Coco.html">Тайна Коко</a></h3>
+                           <div class="post-meta">
+                           <p>Год: <span class="post-yaer">2017</span></p>
+                           <p>Время: <span class="post-time">105 мин.</span></p>
+                           </div> 
+                          </div>
+                       </div>
+                       <div class="col-12 bg-warning mx-3">
+                          <div class="post-body">
+                           <img src="coco.jpg">
+                           <p>12-летний Мигель живёт в мексиканской деревушке 
+                              в семье сапожников и тайно мечтает стать музыкантом. 
+                              Тайно, потому что в его семье музыка считается проклятием. 
+                              Когда-то его прапрадед оставил жену, прапрабабку Мигеля, ради мечты, 
+                              которая теперь не даёт спокойно жить и его праправнуку. 
+                              С тех пор музыкальная тема в семье стала табу. Мигель обнаруживает, 
+                              что между ним и его любимым певцом Эрнесто де ла Крусом, ныне покойным, 
+                              существует некая связь. Паренёк отправляется к своему кумиру в Страну Мёртвых, 
+                              где встречает души предков. Мигель знакомится там с духом-скелетом по имени Гектор, 
+                              который становится его проводником. 
+                              Вдвоём они отправляются на поиски де ла Круса.</p>
+                          </div>
+                       </div>
+                       <div class="post-footer">
+                        <button class="btn coco"> <a href="Coco.html">Подробнее</a></button>
+                        <button class="btn coco">Похожее</button>
+                       </div>
+                    </div>
+                    <div class="post row bg-white mx-2 mt-2">
+                       <div class="col-12 m-3">
+                          <div class="post-header">
+                           <h3> <a href="Coco.html">Тайна Коко</a></h3>
+                           <div class="post-meta">
+                           <p>Год: <span class="post-yaer">2017</span></p>
+                           <p>Время: <span class="post-time">105 мин.</span></p>
+                           </div> 
+                          </div>
+                       </div>
+                       <div class="col-12 bg-warning mx-3">
+                          <div class="post-body">
+                           <img src="coco.jpg">
+                           <p>12-летний Мигель живёт в мексиканской деревушке 
+                              в семье сапожников и тайно мечтает стать музыкантом. 
+                              Тайно, потому что в его семье музыка считается проклятием. 
+                              Когда-то его прапрадед оставил жену, прапрабабку Мигеля, ради мечты, 
+                              которая теперь не даёт спокойно жить и его праправнуку. 
+                              С тех пор музыкальная тема в семье стала табу. Мигель обнаруживает, 
+                              что между ним и его любимым певцом Эрнесто де ла Крусом, ныне покойным, 
+                              существует некая связь. Паренёк отправляется к своему кумиру в Страну Мёртвых, 
+                              где встречает души предков. Мигель знакомится там с духом-скелетом по имени Гектор, 
+                              который становится его проводником. 
+                              Вдвоём они отправляются на поиски де ла Круса.</p>
+                          </div>
+                       </div>
+                       <div class="post-footer">
+                        <button class="btn coco"> <a href="Coco.html">Подробнее</a></button>
+                        <button class="btn coco">Похожее</button>
+                       </div>
+                    </div>
+             </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row" style="height: 100px;">
+            <div class="col  bg-secondary mx-1">
+               <div class="paginate">
+                <div class="row" style="height: 90px;">
+                    <div class="col-2 bg-white my-1 ms-2">1</div>
+                    <div class="col-2 bg-white my-1 ms-2">2</div>
+                    <div class="col-2 bg-white my-1 ms-2">3</div>
+                    <div class="col-2 bg-white my-1 ms-2">4</div>
+                    <div class="col-2 bg-white my-1 ms-2">5</div>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
