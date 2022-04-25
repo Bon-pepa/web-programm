@@ -2,6 +2,7 @@
     display: flex;
     margin-top: 15px;
     margin-bottom: 15px;
+    background-color: rgba(199, 136, 180, 0.8);
     
 }
 .post-meta {
@@ -52,7 +53,7 @@
     text-decoration: none;
 }
 .post {
-border: 1px solid black;
+border: 1px solid rgb(109, 68, 114);
     padding: 1.5rem;
     margin-bottom: 1.5rem;
     border-radius: 3px;
@@ -65,4 +66,62 @@ border: 1px solid black;
 .btn.coco a, btn.coco a:visited {
     color: #fff;
     text-decoration: none;
+}
+.navbar-nav {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+.nav-link {
+    padding: 0.5rem;
+    color: rgba(0, 0, 0,0.55);
+    text-decoration: none;
+
+}
+.nav-link.active {
+    color: rgba(0,0,0,0.9);
+}
+.bg-pink {
+    background-color: rgba(199, 136, 180, 0.8);
+}
+.bg-blue {
+    background-color: rgba(123, 152, 207, 0.8);
+}
+.btn.monster {
+    border: 2px solid rgb(67, 101, 146);
+    color: rgb(255, 255, 255);
+    background-color: #7c90c9;
+}
+.paginate {
+    display: flex;
+    list-style: none;
+}
+.paginate-item {
+    border: 1px solid #2d3644;
+    margin: 2px;
+
+    transition: 0.9s;
+    background-color: #1a212c;
+}
+.paginate-item a {
+    padding: 1.25rem 0.5rem;
+}
+.paginate a, .paginate a:visited {
+    color:#fff;
+}
+
+.paginate a {
+    text-decoration: none;
+}
+.paginate-item:hover {
+    background-color: #fff;
+}
+.paginate-item:hover a {
+    color: #000000;
+}
+.justify-content-center {
+    justify-content: center;
+}
+.text-size-40px {
+    font-size: 40px;
 }
