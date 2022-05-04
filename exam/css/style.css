@@ -1,0 +1,28 @@
+.navbar-nav {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+.nav-link {
+    padding: 0.5rem;
+    color: rgba(0, 0, 0,0.55);
+    text-decoration: none;
+
+}
+.nav-link.active {
+    color: rgba(0,0,0,0.9);
+}
+.navbar {
+    height: 50px;
+    display: flex;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+}
+.bg-brown {
+    background-color: rgb(219, 185, 139);
+}
+.text-white {
+    color: white;
+}
