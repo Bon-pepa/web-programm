@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bootstrap</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light" >
+        <div class="container-fluid">
+            <a>
+                <img src="ava.png" width="45" height="50">
+            </a>
+          <div class="collapse navbar-collapse">
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Главная</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Мир аватара
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="magic.html">Магия</a></li>
+                  <li><a class="dropdown-item" href="#">Персонажи</a></li>
+                  <li><a class="dropdown-item" href="#">События</a></li>
+                  <li><a class="dropdown-item" href="#">Разное</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Аанг
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="#">Персонажи</a></li>
+                  <li><a class="dropdown-item" href="#">Комиксы</a></li>
+                  <li><a class="dropdown-item" href="#">Разное</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Корра
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="#">Персонажи</a></li>
+                  <li><a class="dropdown-item" href="#">Комиксы</a></li>
+                  <li><a class="dropdown-item" href="#">Разное</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div class="container-fluid">
+        <div class="row">
+            <div class="col-1  bg-dark m-1 p-1">
+              <div class="sidebar">
+                <form class="form-inline my-2">
+                  <input class="form-control" type="search" placeholder="Поиск" aria-label="Search">
+                  <button class="btn btn-outline-success my-2" type="submit">Поиск</button>
+                </form>
+                <button type="button" class="btn btn-lg" data-toggle="tooltip" data-placement="right" title="Воздух">
+                    <a href="air.html"> 
+                      <img src="air.png" width="100%" height="100%">
+                    </a>
+                  </button>
+                  <button type="button" class="btn btn-lg" data-toggle="tooltip" data-placement="right" title="Огонь">
+                    <a href="fire.html">
+                      <img src="fire.png" width="100%" height="100%">
+                    </a>
+                  </button>
+                  <button type="button" class="btn btn-lg" data-toggle="tooltip" data-placement="right" title="Земля">
+                    <a href="earth.html"> 
+                      <img src="earth.png" width="100%" height="100%">
+                    </a>
+                  </button>
+                  <button type="button" class="btn btn-lg" data-toggle="tooltip" data-placement="right" title="Вода">
+                    <a href="water.html">
+                      <img src="water.png" width="100%" height="100%">
+                    </a>
+                  </button>
+                  <button type="button" class="btn btn-lg" data-toggle="modal" data-target="#exampleModal" title="Авторизироваться">
+                    <a href="#myModal" data-toggle="modal">
+                      <img src="avat.png" width="100%" height="100%">
+                    </a>
+                  </button>
+              </div>
+            </div>
+            <div class="col">
+             <div class="content">
+                   <div class="post row bg-white mt-2">
+                    <div class="col-12">
+                       <div class="post-header">
+                        <h3>Земля</h3>
+                       </div>
+                    </div>
+                    <div class="col-12 mb-1">
+                       <div class="post-body">
+                        <p class="text-ident text-right">
+                            Магия земли - один из четырёх видов магии стихий в мире Аватара. 
+                            С помощью неё можно управлять землёй и камнями в их различных формах. 
+                            Маги земли рождаются у жителей царства Земли и их потомков в других частях света.
+                            Согласно Айро, земля - это элемент силы и стойкости. 
+                            Маги земли предпочитают защищаться от атак противника, 
+                            выжидая момент для нанесения контратаки или решающего удара.</p>
+                          <img src="zearth.jpg" width="50%" height="40%">
+                       </div>
+                       <div class="row">
+                        <h3>Основы магии земли</h3>
+                        <table class="table table-striped">
+                            <tbody>
+                              <tr>
+                                <th scope="row">Левитация <img src="earth/1.jpg" ></th>
+                                <td>Применяется в большинстве техник. Маг земли перемещает естественные валуны 
+                                    или создаёт их сам. Размер перемещаемых камней, скорость и дальность 
+                                    левитации зависит от мастерства мага.</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">Разрушение <img src="earth/2.jpg" ></th>
+                                <td>Маг земли способен раскалывать, дробить, истирать камни и скалы, 
+                                    а также раздвигать землю, чтобы создать тоннель для себя или наоборот 
+                                    чтобы затянуть туда противника.</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">Сжатие <img src="earth/3.jpg" ></th>
+                                <td>В противоположность разрушению, маг земли может сжимать землю до получения 
+                                    более твёрдой и компактной формы, которой будет более выгодно нанести удар. 
+                                    Хару и его отец, Тайро, использовали эту технику, сжатие несколько небольших 
+                                    кусков угля в один большой валун угля. Учитывая тот факт, что двое магов земли 
+                                    были необходимы для выполнения этого приёма, можно предположить, что эта техника 
+                                    достаточно сложна, возможно, что одному магу земли гораздо труднее даётся этот 
+                                    приём.</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">Манипуляция формами земли <img src="earth/4.jpg" ></th>
+                                <td>Опытные маги земли могут манипулировать не только землёй, но и всем, что в 
+                                    большей или меньшей степени содержит землю. Например, песком, углём, кристаллами, 
+                                    пылью и другими неземными материалами, такие как метеориты и дженномит.</td>
+                              </tr>
+                            </tbody>
+                          </table>
+                          <h3>Простые приёмы и техники</h3>
+                        <table class="table table-striped">
+                            <tbody>
+                              <tr>
+                                <th scope="row">«Сдвинь камень» <img src="earth/5.jpg" ></th>
+                                <td>Приём, позволяющий ощутить землю. Он лежит в основе многих техник. 
+                                    Суть приёма состоит в том, чтобы сдвинуть камень, находящийся 
+                                    в непосредственной близости от мага.</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">Земляной/каменный щит<img src="earth/6.jpg" ></th>
+                                <td>Оборонительная техника, с помощью которой маг поднимает перед собой 
+                                    толщу земли и камней. Однако она может использоваться и в атаке, 
+                                    если поднимать землю под противником. Также можно после постановки 
+                                    щита расходовать его, запуская камни в соперника.</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">Каменные колонны<img src="earth/7.jpg" ></th>
+                                <td>Маг земли с высокой скоростью поднимает из земли каменные колонны. 
+                                    Этим приёмом можно отбросить противника или высоко подпрыгнуть самому. 
+                                    Колонны можно поднимать не только вертикально, но и под углом к поверхности земли.</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">Стены/плиты<img src="earth/8.jpg" ></th>
+                                <td>Маг земли может создать каменную стену/плиту разной толщины и использовать её в 
+                                    бою или для строительства. Тоф несколько раз демонстрировала этот приём, создавая 
+                                    каменную палатку. Интересным вариантом этого приёма является создание 
+                                    стен с острым треугольным краем, чтобы обездвижить противника, не являющегося магом земли.</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">Каменные кандалы<img src="earth/9.jpg" ></th>
+                                <td>Чтобы сковать противника - не мага земли, можно связать его руки и/или ноги с землёй.</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">Землетрясения/трещины<img src="earth/10.jpg" ></th>
+                                <td>Маг земли может сотрясать землю и каменные предметы, а также создавать трещины в земле.</td>
+                              </tr>
+                            </tbody>
+                          </table>
+                    </div>
+                    </div>
+                    </div>
+                  </div> 
+                </div>
+        </div>
+           </div>
+         </div>
+        </div>
+      </div>
+<!-- модальное окно -->
+<div class="modal fade" id="myModal" class="modal" tabindex="-1">
+  <div class="modal-dialog modal-sm">
+      <div class="modal-content">
+          <div class="modal-header">
+              <h5 class="modal-title">Авторизация</h5>
+              <button type="button" class="close btn-outline-danger" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="form-row">
+                <div class="form-group col">
+                  <label for="inputEmail">Email</label>
+                  <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+                </div>
+                <div class="form-group col">
+                  <label for="inputPassword">Password</label>
+                  <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="form-check">
+                  <label class="form-check-label">
+                    <input class="form-check-input" type="checkbox"> Запомнить меня
+                  </label>
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-outline-success" data-dismiss="modal">Войти</button>
+            <button type="button" class="btn btn-outline-warning" data-dismiss="modal">Зарегистрироваться</button>
+        </div>
+      </div>
+  </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+      <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>

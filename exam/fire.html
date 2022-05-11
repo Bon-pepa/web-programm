@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bootstrap</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light" >
+        <div class="container-fluid">
+            <a>
+                <img src="ava.png" width="45" height="50">
+            </a>
+          <div class="collapse navbar-collapse">
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Главная</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Мир аватара
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="magic.html">Магия</a></li>
+                  <li><a class="dropdown-item" href="#">Персонажи</a></li>
+                  <li><a class="dropdown-item" href="#">События</a></li>
+                  <li><a class="dropdown-item" href="#">Разное</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Аанг
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="#">Персонажи</a></li>
+                  <li><a class="dropdown-item" href="#">Комиксы</a></li>
+                  <li><a class="dropdown-item" href="#">Разное</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Корра
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="#">Персонажи</a></li>
+                  <li><a class="dropdown-item" href="#">Комиксы</a></li>
+                  <li><a class="dropdown-item" href="#">Разное</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div class="container-fluid">
+        <div class="row">
+            <div class="col-1  bg-dark m-1 p-1">
+              <div class="sidebar">
+                <form class="form-inline my-2">
+                  <input class="form-control" type="search" placeholder="Поиск" aria-label="Search">
+                  <button class="btn btn-outline-success my-2" type="submit">Поиск</button>
+                </form>
+                <button type="button" class="btn btn-lg" data-toggle="tooltip" data-placement="right" title="Воздух">
+                    <a href="air.html"> 
+                      <img src="air.png" width="100%" height="100%">
+                    </a>
+                  </button>
+                  <button type="button" class="btn btn-lg" data-toggle="tooltip" data-placement="right" title="Огонь">
+                    <a href="fire.html">
+                      <img src="fire.png" width="100%" height="100%">
+                    </a>
+                  </button>
+                  <button type="button" class="btn btn-lg" data-toggle="tooltip" data-placement="right" title="Земля">
+                    <a href="earth.html"> 
+                      <img src="earth.png" width="100%" height="100%">
+                    </a>
+                  </button>
+                  <button type="button" class="btn btn-lg" data-toggle="tooltip" data-placement="right" title="Вода">
+                    <a href="water.html">
+                      <img src="water.png" width="100%" height="100%">
+                    </a>
+                  </button>
+                  <button type="button" class="btn btn-lg" data-toggle="modal" data-target="#exampleModal" title="Авторизироваться">
+                    <a href="#myModal" data-toggle="modal">
+                      <img src="avat.png" width="100%" height="100%">
+                    </a>
+                  </button>
+              </div>
+            </div>
+            <div class="col">
+             <div class="content">
+                   <div class="post row bg-white mt-2">
+                    <div class="col-12">
+                       <div class="post-header">
+                        <h3>Огонь</h3>
+                       </div>
+                    </div>
+                    <div class="col-12 mb-1">
+                       <div class="post-body">
+                        <p class="text-ident text-right">
+                            Магия огня - один из четырёх видов магии стихий в мире Аватара. 
+                            Применяя её, можно создавать и контролировать огонь. 
+                            Маги огня рождаются у жителей страны Огня, города Воинов Солнца и их потомков, 
+                            живущих в других частях света. Уникальность магии огня в том, что, 
+                            в отличие от других магий стихий, магу не требуется наличие стихии в природе - 
+                            он может самостоятельно создавать огонь. Для этого маг огня использует свою ци.
+                            Согласно словам Айро, огонь - это элемент силы. 
+                            Магия огня отличается агрессивным атакующим стилем и малым 
+                            количеством защитных приёмов. Главная цель мага огня - подавить противника 
+                            своей мощью.</p>
+                          <img src="zfire.jpg" width="50%" height="40%">
+                       </div>
+                       <div class="row">
+                        <h3>Основы магии огня</h3>
+                        <table class="table table-striped">
+                            <tbody>
+                              <tr>
+                                <th scope="row">Огненный шар <img src="fire/1.png" ></th>
+                                <td>Основная техника. Ударом кулака создаётся маленький шар, 
+                                    летящий в направлении удара. Последовательные удары позволяют 
+                                    вести продолжительную атаку. Размер шара зависит от предварительной 
+                                    подготовки, концентрации и мастерства мага. Большие шары летят медленнее 
+                                    маленьких.</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">Огненная струя <img src="fire/2.jpg" ></th>
+                                <td>Основная техника. Обычно, струи выпускаются из пальцев, кулаков, 
+                                    ладоней или ступней. Ширина струи зависит от опыта мага и площади 
+                                    поверхности, с которой идёт. Приём часто применяется солдатами страны 
+                                    Огня для разрушения различных зданий и построек.</td>
+                              </tr>
+                            </tbody>
+                          </table>
+                          <h3>Простые приёмы и техники</h3>
+                        <table class="table table-striped">
+                            <tbody>
+                              <tr>
+                                <th scope="row">Огненная волна <img src="fire/3.png" ></th>
+                                <td>Вращение рукой или удар ногой с разворотом позволяет послать 
+                                    кольцеобразную волну огня, радиус которой увеличивается по мере 
+                                    отдаления от источника. Увеличенная силой кометы Созина атака 
+                                    достигает размеров огненного торнадо. Эту технику применял Зуко 
+                                    во время Агни Кай с Азулой.</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">Блокирование огня<img src="fire/4.jpg" ></th>
+                                <td>Маг может погасить или перенаправить огонь, брошенный в него другим магом, 
+                                    посредством удара кулаком или толчка ладонью. В серии «Кипящая скала, 
+                                    часть 1» Чит Сэнг, защищаясь от атаки, перенаправил огонь стражника в него 
+                                    самого, а солдат уже блокировал пламя.</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">Огненное лезвие<img src="fire/5.jpg" ></th>
+                                <td>Продвинутая версия огненной волны. Маг до небольшой толщины уплотняет струю огня, 
+                                    которая может разрезать твёрдые предметы. В серии «Погоня» Азула таким способом 
+                                    отпилила угол ветхого здания. В серии «Перекрёстки судьбы» Зуко разорвал водяные 
+                                    плети Катары.</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">Огненный обруч<img src="fire/6.png" ></th>
+                                <td>Техника, продемонстрированная воинами Солнца. Из небольшого огонька широким 
+                                    круговым движением раздувается бóльшее пламя, которому придаётся форма правильной 
+                                    окружности. Обруч удерживается в воздухе, затем маг собирает огонь тем же круговым 
+                                    движением и гасит его. Техника не применяется в бою, а служит для совершения ритуала.</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">Огненный кинжал<img src="fire/7.jpg" ></th>
+                                <td>Маленькое пламя, как струя, которое создается из кулаков или пальцев рук для 
+                                    использования в ближнем бою. В серии «Состояние Аватара» Зуко использовал 
+                                    эту технику, когда сражался с сестрой. Азула также демонстрировала её, 
+                                    когда захватила Куэя в заложники во время захвата Ба Синг Се. Корра тоже 
+                                    использовала эту технику. Однако, она использовала огненный кинжал не для 
+                                    атаки, а для того, чтобы расплавить цепи. Тем самым девушка освободила Тензина 
+                                    и его семью во время победного митинга Уравнителей.</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">Огненный щит<img src="fire/9.png" ></th>
+                                <td>Одна из немногих защитных техник, мини-версия стены пламени. Маг создаёт небольшую 
+                                    огненную стену перед собой, чтобы отражать атаки и взрывы. Зуко создал небольшой 
+                                    щит, когда защищался от атаки Огненного убийцы в серии «Западный Храм Воздуха».</td>
+                              </tr>
+                            </tbody>
+                          </table>
+                    </div>
+                    </div>
+                    </div>
+                  </div> 
+                </div>
+        </div>
+           </div>
+         </div>
+        </div>
+      </div>
+<!-- модальное окно -->
+<div class="modal fade" id="myModal" class="modal" tabindex="-1">
+  <div class="modal-dialog modal-sm">
+      <div class="modal-content">
+          <div class="modal-header">
+              <h5 class="modal-title">Авторизация</h5>
+              <button type="button" class="close btn-outline-danger" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="form-row">
+                <div class="form-group col">
+                  <label for="inputEmail">Email</label>
+                  <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+                </div>
+                <div class="form-group col">
+                  <label for="inputPassword">Password</label>
+                  <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="form-check">
+                  <label class="form-check-label">
+                    <input class="form-check-input" type="checkbox"> Запомнить меня
+                  </label>
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-outline-success" data-dismiss="modal">Войти</button>
+            <button type="button" class="btn btn-outline-warning" data-dismiss="modal">Зарегистрироваться</button>
+        </div>
+      </div>
+  </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+      <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
