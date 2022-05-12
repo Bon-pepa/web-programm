@@ -168,3 +168,6 @@
 	align-items: flex-start;
 	align-content: center;
 }
+.w-50 {
+  width: 50%;
+}
