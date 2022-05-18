@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bootstrap</title>
+    <style>
+        .post-header {
+            text-align: center;
+            font-family:cursive;
+        }
+    </style>
+    <link href="css/bootstrap.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light" >
+        <div class="container-fluid">
+            <a>
+                <img src="ava.png" width="45" height="50">
+            </a>
+          <div class="collapse navbar-collapse">
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Главная</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Мир аватара
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="magic.html">Магия</a></li>
+                  <li><a class="dropdown-item" href="person.html">Персонажи</a></li>
+                  <li><a class="dropdown-item" href="raz.html">Разное</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Аанг
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="persa.html">Персонажи</a></li>
+                  <li><a class="dropdown-item" href="rz.html">Разное</a></li>
+                </ul>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="otz.html">Отзывы</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div class="container-fluid">
+        <div class="row">
+            <div class="col-1  bg-dark m-1 p-1">
+              <div class="sidebar">
+                <form class="form-inline">
+                  <input class="form-control" type="search" placeholder="Поиск" aria-label="Search">
+                </form>
+                <button type="button" class="btn btn-lg" data-toggle="tooltip" data-placement="right" title="Воздух">
+                    <a href="air.html"> 
+                      <img src="air.png" width="100%" height="100%">
+                    </a>
+                  </button>
+                  <button type="button" class="btn btn-lg" data-toggle="tooltip" data-placement="right" title="Огонь">
+                    <a href="fire.html">
+                      <img src="fire.png" width="100%" height="100%">
+                    </a>
+                  </button>
+                  <button type="button" class="btn btn-lg" data-toggle="tooltip" data-placement="right" title="Земля">
+                    <a href="earth.html"> 
+                      <img src="earth.png" width="100%" height="100%">
+                    </a>
+                  </button>
+                  <button type="button" class="btn btn-lg" data-toggle="tooltip" data-placement="right" title="Вода">
+                    <a href="water.html">
+                      <img src="water.png" width="100%" height="100%">
+                    </a>
+                  </button>
+                  <button type="button" class="btn btn-lg" data-toggle="modal" data-target="#exampleModal" title="Авторизироваться">
+                    <a href="#myModal" data-toggle="modal">
+                      <img src="avat.png" width="100%" height="100%">
+                    </a>
+                  </button>
+              </div>
+            </div>
+            <div class="col">
+             <div class="content">
+                   <div class="post row bg-white mt-2">
+                    <div class="col-12">
+                       <div class="post-header">
+                        <h2>Персонажи</h2>
+                       </div>
+                    </div>
+                    <div class="col-12 mb-1">
+                        <div class="post-title">
+                            <h3>Аанг</h3>
+                        </div>
+                       <div class="post-body">
+                        <img src="pers/1.jpg" width="50%" height="40%">
+                        <p class="text-ident text-right ms-3">
+                            Аанг - единственный оставшийся в живых представитель 
+                            нации Воздушных кочевников, которые были уничтожены 
+                            Народом Огня в 0 году ПГ. Он является Аватаром - человеком, 
+                            способным использовать все четыре вида магии: воздуха, 
+                            воды, земли и огня. Именно с целью его убийства Народ Огня 
+                            напал на мирных монахов. Аанг сбежал от своих наставников 
+                            незадолго до этих событий, но оказался замороженным в айсберге 
+                            на следующие сто лет. Всё это время в мире шла война. 
+                            После пробуждения Аанг должен исполнить свою миссию: 
+                            освоить все виды магии и вернуть мир.</p>
+                       </div>
+                       <div class="col"><hr></div>
+                       <div class="col-12 mb-1">
+                        <div class="post-title">
+                            <h3>Сокка</h3>
+                        </div>
+                       <div class="post-body">
+                        <img src="pers/2.jpg" width="50%" height="40%">
+                        <p class="text-ident text-right ms-3">
+                            Сокка - член команды Аватара, сын вождя Южного Племени Воды, Хакоды, 
+                            и его жены, Каи.
+                            Он жил вместе со своей бабушкой Канной и младшей сестрой Катарой 
+                            до того, как они встретили Аанга. Когда ему было 8 лет, в его племя 
+                            пришли Южные захватчики, и в этом бою он потерял мать. Позже, 
+                            Хакода принимает трудный выбор и вместе с другими воинами отправляется 
+                            на войну против нации Огня, оставив сына за старшего. Он взял на себя
+                             ответственность за защиту племени.
+                            Когда они с сестрой обнаружили мага воздуха, Сокка сперва ему не 
+                            доверял, считая, что Аанг - шпион Народа Огня, но потом они стали 
+                            лучшими друзьями.</p>
+                       </div>
+                       <div class="col"><hr></div>
+                       <div class="col-12 mb-1">
+                        <div class="post-title">
+                            <h3>Катара</h3>
+                        </div>
+                       <div class="post-body">
+                        <img src="pers/3.jpg" width="50%" height="40%">
+                        <p class="text-ident text-right ms-3">
+                            Катара - дочь вождя Южного Племени Воды Хакоды и единственный маг воды 
+                            на Южном полюсе. У неё есть старший брат Сокка. Их мать погибла после 
+                            одной из атак Народа Огня, защищая свою дочь. Когда все взрослые мужчины 
+                            Племени отправились на войну, Катара и Сокка взяли на себя управление 
+                            деревней и обеспечение её жителей едой. Однажды во время рыбалки они 
+                            обнаружили ледяную сферу с заключённым внутри мальчиком, который оказался 
+                            Аватаром и круто изменил жизнь девушки.</p>
+                       </div>
+                       <div class="col"><hr></div>
+                       <div class="col-12 mb-1">
+                        <div class="post-title">
+                            <h3>Суюки</h3>
+                        </div>
+                       <div class="post-body">
+                        <img src="pers/4.jpg" width="50%" height="40%">
+                        <p class="text-ident text-right ms-3">
+                            Суюки - член команды Аватара и лидер воинов Киоши. Она начала своё обучение 
+                            боевым искусствам в возрасте восьми лет и добилась больших успехов, 
+                            позже возглавив своих подруг.</p>
+                       </div>
+                       <div class="col"><hr></div>
+                       <div class="col-12 mb-1">
+                        <div class="post-title">
+                            <h3>Тоф Бейфонг</h3>
+                        </div>
+                       <div class="post-body">
+                        <img src="pers/5.jpg" width="50%" height="40%">
+                        <p class="text-ident text-right ms-3">
+                            Тоф Бейфонг - единственный ребёнок в семье Лао и Поппи Бейфонг. 
+                            Её родители - одни из богатейших людей в царстве Земли. 
+                            Тоф родилась слепой и с самого детства была окружена постоянной заботой 
+                            и вниманием. Однако чрезмерная опека претила независимому характеру девочки. 
+                            Тоф нашла себя в магии земли и, благодаря ей, научилась видеть окружающий мир.
+                             Встретившись с Аангом, она решилась на отчаянный шаг и сбежала из дома, чтобы
+                              учить Аватара магии земли.</p>
+                       </div>
+                       <div class="col"><hr></div>
+                       <div class="col-12 mb-1">
+                        <div class="post-title">
+                            <h3>Зуко</h3>
+                        </div>
+                       <div class="post-body">
+                        <img src="pers/6.jpg" width="50%" height="40%">
+                        <p class="text-ident text-right ms-3">
+                            Зуко - принц народа Огня, сын Хозяина Огня Озая и его жены Урсы. 
+                            Его легко узнать по шраму от ожога на левой стороне лица, 
+                            который он получил от отца за отказ драться во время их Агни Кай. 
+                            За такое недостойное поведение Зуко был изгнан из страны Огня, 
+                            пока не найдёт Аватара, которого не видели уже 100 лет. 
+                            В этом путешествии он нашёл не только новых друзей, но и самого себя.</p>
+                       </div>
+                       <div class="col"><hr></div>
+                       <div class="col-12 mb-1">
+                        <div class="post-title">
+                            <h3>Айро</h3>
+                        </div>
+                       <div class="post-body">
+                        <img src="pers/7.jpg" width="50%" height="40%">
+                        <p class="text-ident text-right ms-3">
+                            Айро - бывший генерал армии страны Огня, сын Хозяина Огня Азулона 
+                            старший брат Хозяина Огня Озая, мастер магии огня и наставник своего 
+                            племянника, принца Зуко.
+                            Его называют "дядя Айро", "генерал Айро", "принц Айро", а также "Дракон Запада". 
+                            Узнавали его по достижениям и способностям, особенно его технике «дыхание дракона». Были слухи, что Айро убил последнего дракона, но именно он сохранил жизнь последним из них.
+                            Айро не похож на других солдат армии Огня и особенно на свою семью. 
+                            Он - добродушный, весёлый человек. Он ценит равновесие четырёх стихий, 
+                            даже делая собственные приёмы магии огня, основанные на технике покорения воды. 
+                            Айро помогал Аватару Аангу и его друзьям остановить своего брата - Хозяина 
+                            Огня Озая. Больше, чем что-либо ещё, Айро хотел воодушевить Зуко, чтобы он 
+                            сам выбирал свою судьбу. Также он очень любит пить чай, впоследствии у него 
+                            появилась собственная чайная в Ба Синг Се.</p>
+                       </div>
+                       <div class="col"><hr></div>
+                       <div class="col-12 mb-1">
+                        <div class="post-title">
+                            <h3>Аппа</h3>
+                        </div>
+                       <div class="post-body">
+                        <img src="pers/8.jpg" width="30%" height="20%">
+                        <p class="text-ident text-right ms-3">
+                            Аппа - летающий зубр и зверь-хранитель Аанга.</p>
+                       </div>
+                    </div>
+                    </div>
+                  </div> 
+                </div>
+
+<!-- модальное окно -->
+<div class="modal fade" id="myModal" class="modal" tabindex="-1">
+  <div class="modal-dialog modal-sm">
+      <div class="modal-content">
+          <div class="modal-header">
+              <h5 class="modal-title">Авторизация</h5>
+              <button type="button" class="btn btn-outline-danger" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="form-row">
+                <div class="form-group col">
+                  <label for="inputEmail">Email</label>
+                  <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+                </div>
+                <div class="form-group col">
+                  <label for="inputPassword">Password</label>
+                  <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="form-check">
+                  <label class="form-check-label">
+                    <input class="form-check-input" type="checkbox"> Запомнить меня
+                  </label>
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-outline-success" data-dismiss="modal">Войти</button>
+            <button type="button" class="btn btn-outline-warning" data-dismiss="modal">Зарегистрироваться</button>
+        </div>
+      </div>
+  </div>
+</div>
+<div class="em">
+  <div class="emoji  emoji--wow">
+    <div class="emoji__face">
+      <div class="emoji__eyebrows"></div>
+      <div class="emoji__eyes"></div>
+      <div class="emoji__mouth"></div>
+    </div>
+  </div>
+  </div>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+      <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
